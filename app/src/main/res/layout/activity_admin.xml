@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".AdminActivity">
+
+    <Button
+        android:id="@+id/loadLoansButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Charger les demandes de prêt" />
+
+    <Button
+        android:id="@+id/listLoanedBooksButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Lister les Livres Prêtés" />
+
+    <Button
+        android:id="@+id/listNonReturnedBooksButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Lister les Livres Non Retournés" />
+    <Button
+    android:id="@+id/listBooksButton"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:text="Liste des Livres " />
+    <Button
+        android:id="@+id/listUsersButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Lister les Utilisateurs"
+        android:layout_marginBottom="16dp"/>
+    <Button
+        android:id="@+id/createBookButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Créer un Livre" />
+
+
+    <ListView
+        android:id="@+id/loanListView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="16dp" />
+
+
+
+</LinearLayout>

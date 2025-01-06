@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".UserActivity">
+
+
+    <Button
+        android:id="@+id/createUserButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Créer un Utilisateur" />
+
+
+
+    <Button
+        android:id="@+id/requestLoanButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Demander un Prêt" />
+    <AutoCompleteTextView
+        android:id="@+id/autoCompleteSearch"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Rechercher Livre par auteur ou catégorie"
+        android:inputType="text"
+        android:completionThreshold="1"
+        android:padding="8dp"
+        android:layout_margin="16dp"/>
+
+    <ListView
+        android:id="@+id/listView"
+        android:layout_width="match_parent"
+        android:layout_height="143dp" />
+    <TextView
+        android:id="@+id/textViewSelection"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        />
+
+    <Spinner
+        android:id="@+id/spinnerUser"
+        android:layout_width="match_parent"
+        android:layout_height="92dp" />
+
+    <ImageView
+        android:id="@+id/imageViewDrapeau"
+        android:layout_width="match_parent"
+        android:layout_height="306dp"
+        tools:srcCompat="@tools:sample/avatars" />
+</LinearLayout>
